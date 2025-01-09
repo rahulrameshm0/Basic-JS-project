@@ -14,6 +14,6 @@ function checkpalindrome(){
     else{
         alert('This sting is not palindrome!')
     }
-
+    
     input.value = ""
 }
