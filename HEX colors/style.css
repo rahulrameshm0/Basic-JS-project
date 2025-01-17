@@ -1,0 +1,72 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.container{
+    font-family: "Poppins", serif;
+
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    height: 100vh;
+    width: 95%;
+}
+
+.hex-color{
+    text-align:center;
+
+}
+
+.hex-color h1{
+    font-size: 2rem;
+    text-transform: uppercase;
+    animation: colorchange 5s infinite alternate;
+}
+.hex-color h2{
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-top: 15%;
+}
+
+button{
+    border: 0;
+    background-color: lightskyblue;
+    color: aliceblue;
+    padding: 1rem 1.5rem;
+}
+
+@keyframes colorchange{
+    0%{
+        color: indigo;
+    }
+    
+    20%{
+        color: blue;
+    }
+    
+    40%{
+        color: green;
+    }
+    
+    60%{
+        color: yellow;
+    }
+    
+    80%{
+        color: orange;
+    }
+    
+    100%{
+        color: red;
+    }
+    
+}
+
+@media(max-width:480px) {
+    .hex-color h1{
+        font-size: 1.5rem;
+    }
+    .hex-color h2{ 
+        font-size: 1.5rem;
+    }
+
+}
